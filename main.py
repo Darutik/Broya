@@ -41,7 +41,7 @@ print " 1. Yes..."
 print " 2. Who are you?"
 print " 3. I'm dead..."
 Ans = raw_input("==> ")
-While XBucle != True:
+while (XBucle != True):
     if Ans == "1":
         print " YOU:"
         print " Yes..."
@@ -106,7 +106,8 @@ XBucle = False
 raw_input("")
 print " " + Name + " and Kevin are in a bedroom of the house of Kevin."
 print " The walls of the room are colored with blue colors."
-print " " + Name + " is lyed in the white bed. His backpack is placed in an empty desk wich have a classical lamp."
+print " " + Name + " is lying in the white bed. His backpack is placed in an empty desk wich have a classical lamp."
+print " Kevin is sitting near " + Name + " in the same bed."
 raw_input("")
 print " " + Name + ":"
 print " My backpack..."
@@ -124,3 +125,4 @@ raw_input("")
 print " KEVIN:"
 print " Who is Broya?"
 raw_input("")
+print " " + Name + ":"
