@@ -68,7 +68,7 @@ While XBucle != True:
         print " Who are you?"
         raw_input("")
         print " SOMEONE:"
-        print " I'm Kevin, and I found you near the river, in the East."
+        print " I'm Kevin. I found you near the river, in the East."
         print " You were unconscious, so I let you in my house, inside the forest."
         raw_input("")
         print " KEVIN:"
@@ -88,13 +88,13 @@ While XBucle != True:
         print " So, how I should call you, ghost? Casper???"
         Name = raw_input("==> ")
         print " " + Name + ":"
-        print " I'm... " + Name + "."
+        print " I'm not Casper. I'm " + Name + "."
         raw_input("")
         print " SOMEONE:"
-        print " Sorry, " + Name + ", I'm not Bill Gates."
+        print " Sorry, " + Name + ", I'm not Bill Gates too."
         raw_input("")
         print " SOMEONE:"
-        print " I'm Kevin, and I found you near the river, in the East."
+        print " I'm Kevin. I found you near the river, in the East."
         print " You were unconscious, so I let you in my house, inside the forest."
         XBucle = True
     else:
@@ -103,4 +103,24 @@ While XBucle != True:
         raw_input("")
         XBucle = False
 XBucle = False
+raw_input("")
+print " " + Name + " and Kevin are in a bedroom of the house of Kevin."
+print " The walls of the room are colored with blue colors."
+print " " + Name + " is lyed in the white bed. His backpack is placed in an empty desk wich have a classical lamp."
+raw_input("")
+print " " + Name + ":"
+print " My backpack..."
+raw_input("")
+print " Kevin gived the Backpack to " + Name + "."
+raw_input("")
+print " " + Name + ":"
+print " Wait."
+raw_input("")
+print " " + Name + ":"
+print " I didn't have any backpack..."
+raw_input("")
+print " There is a tag with the name of someone in the backpack."
+raw_input("")
+print " KEVIN:"
+print " Who is Broya?"
 raw_input("")
