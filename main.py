@@ -2,6 +2,7 @@ import sys
 
 Ans = ""
 Name = ""
+Genre = ""
 XBucle = False
 
 print ""
@@ -126,3 +127,89 @@ print " KEVIN:"
 print " Who is Broya?"
 raw_input("")
 print " " + Name + ":"
+print " Broya..."
+raw_input("")
+print " " + Name + ":"
+print " When you find me..."
+raw_input("")
+print " " + Name + ":"
+print " ...I was alone?"
+print " There aren't anyone more outside?"
+raw_input("")
+print " KEVIN:"
+print " I didn't find any more than you and this backpack."
+print " But..."
+raw_input("")
+print " KEVIN:"
+print " Who is Broya???"
+print ""
+print " 1. Broya..."
+print " 2. Broya..."
+Ans = raw_input("==> ")
+while (XBucle != True):
+    if Ans == "1":
+        Genre = "Male"
+        print " " + Name + ":"
+        print " Broya..."
+        print " Broya is my friend..."
+        raw_input("")
+        print " KEVIN:"
+        print " He was with you?"
+        raw_input("")
+        print " " + Name + "."
+        print " Let me think..."
+        raw_input("")
+        print " " + Name + "."
+        print " Yes..."
+        print " He was with me..."
+        raw_input("")
+        print " " + Name + "."
+        print " I must help him!!!"
+        raw_input("")
+        print " KEVIN:"
+        print " (Stopping " + Name + ")"
+        print " Not now!"
+        raw_input("")
+        print " KEVIN:"
+        print " It's dark outside, and you aren't ready for the dangers."
+        print " Too dangerous for you now..."
+        raw_input("")
+        print " " + Name + "."
+        print " ..."
+        raw_input("")
+        print " KEVIN:"
+        print " Tomorrow you can seachr him."
+        print " He'll be ok..."
+        raw_input("")
+        print ""
+        print " " + Name + " is sleeping, when a computer song wake him..."
+        print ""
+        raw_input("")
+        
+        XBucle = True
+    elif Ans == "2":
+        Genre = "Female"
+        print " " + Name + ":"
+        print " Broya.."
+        print " Broya is my partner..."
+        raw_input("")
+        print " KEVIN:"
+        print " Your partner???"
+        print " You mean your journey partner, no?"
+        raw_input("")
+        print " " + Name + ":"
+        print " I supose..."
+        print " I only know that I have this word recorded on my mind..."
+        raw_input("")
+        
+        XBucle = True
+    else:
+        print " SYSTEM:"
+        print " I don't like what you are saying..."
+        raw_input("")
+        XBucle = False
+XBucle = False
+raw_input("")
+print "DEADLINE"
+print "The code ends here..."
+raw_input("")
