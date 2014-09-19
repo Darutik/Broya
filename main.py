@@ -156,14 +156,14 @@ while (XBucle != True):
         print " KEVIN:"
         print " He was with you?"
         raw_input("")
-        print " " + Name + "."
+        print " " + Name + ":"
         print " Let me think..."
         raw_input("")
-        print " " + Name + "."
+        print " " + Name + ":"
         print " Yes..."
         print " He was with me..."
         raw_input("")
-        print " " + Name + "."
+        print " " + Name + ":"
         print " I must help him!!!"
         raw_input("")
         print " KEVIN:"
@@ -174,18 +174,89 @@ while (XBucle != True):
         print " It's dark outside, and you aren't ready for the dangers."
         print " Too dangerous for you now..."
         raw_input("")
-        print " " + Name + "."
+        print " " + Name + ":"
         print " ..."
         raw_input("")
         print " KEVIN:"
-        print " Tomorrow you can seachr him."
+        print " You can search him tomorrow."
         print " He'll be ok..."
         raw_input("")
         print ""
-        print " " + Name + " is sleeping, when a computer song wake him..."
+        print " " + Name + " is sleeping, when a computer sound wake him..."
         print ""
         raw_input("")
-        
+        print ""
+        print " " + Name + ":"
+        print " What..."
+        print " What's this?"
+        raw_input("")
+        print ""
+        print " ..."
+        raw_input("")
+        print ""
+        print " ..."
+        raw_input("")
+        print ""
+        print " " + Name +":"
+        print " What should I do now?"
+        print ""
+        print " 1. Ignore it and sleep."
+        print " 2. Go and see what's up there."
+        print " 3. Sing a song loudly."
+        Ans = raw_input("==> ")
+        while (XBucle != True):
+            if Ans == "1":
+                print ""
+                
+                XBucle = True
+            elif Ans == "2":
+                print ""
+                
+                XBucle = True
+            elif Ans == "3":
+                print ""
+                print " " + Name + ":"
+                print " Para bailar la bamba!!!"
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " Para bailar la bamba!"
+                print " Se necesita"
+                print " Una poca de gracia!!!"
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " Urg..."
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " Una poca de gracia!"
+                print " Pa mi pa ti"
+                print " Ay y arriba y arriba!!!"
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " WTF?!!!"
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " Yo no soy marinero!!!"
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " What are you doing???!"
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " Yo no soy marinero!"
+                
+                
+                XBucle = True
+            else:
+                print " SYSTEM:"
+                print " I don't like what you are saying..."
+                raw_input("")
+                XBucle = False
         XBucle = True
     elif Ans == "2":
         Genre = "Female"
