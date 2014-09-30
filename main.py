@@ -249,7 +249,15 @@ while (XBucle != True):
                 print ""
                 print " " + Name + ":"
                 print " Yo no soy marinero!"
-                
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " SHUT UP!!!"
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " ..."
+                raw_input("")
                 
                 XBucle = True
             else:
