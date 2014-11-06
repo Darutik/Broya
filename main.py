@@ -74,7 +74,7 @@ while (XBucle != True):
         raw_input("")
         print " KEVIN:"
         print " So, you got it. Now let me ask you..."
-        print " How I call you?"
+        print " How should I call you?"
         Name = raw_input("==> ")
         print " " + Name + ":"
         print " I'm... " + Name + "."
@@ -86,7 +86,7 @@ while (XBucle != True):
         raw_input("")
         print " SOMEONE:"
         print " Yes, and I am Bill Gates."
-        print " So, how I should call you, ghost? Casper???"
+        print " So, how should I call you, ghost? Casper???"
         Name = raw_input("==> ")
         print " " + Name + ":"
         print " I'm not Casper. I'm " + Name + "."
