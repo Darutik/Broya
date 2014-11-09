@@ -207,10 +207,39 @@ while (XBucle != True):
         while (XBucle != True):
             if Ans == "1":
                 print ""
+                print " " + Name + ":"
+                print " I should be sleeping."
+                print " I need energy to find Broya tomorrow..."
+                raw_input("")
+                print ""
+                print " " + Name + " go back to the bed, and close his eyes."
+                raw_input("")
+                print "..."
+                raw_input("")
+                print "..."
+                raw_input("")
+                print "..."
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " Uf..."
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " This was close..."
+                raw_input("")
+                print ""
                 
                 XBucle = True
             elif Ans == "2":
                 print ""
+                print " " + Name + ":"
+                print " Hmm..."
+                raw_input("")
+                print ""
+                print " " + Name + " go to take a look out there."
+                print " What can be that sound?"
+                raw_input
                 
                 XBucle = True
             elif Ans == "3":
