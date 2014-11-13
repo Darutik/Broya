@@ -227,9 +227,6 @@ while (XBucle != True):
                 print ""
                 print " KEVIN:"
                 print " This was close..."
-                raw_input("")
-                print ""
-                
                 XBucle = True
             elif Ans == "2":
                 print ""
@@ -239,7 +236,13 @@ while (XBucle != True):
                 print ""
                 print " " + Name + " go to take a look out there."
                 print " What can be that sound?"
-                raw_input
+                raw_input("")
+                print ""
+                print " " + Name + " walk to the source of the sound."
+                raw_input("")
+                
+                print " The sound come from a computer."
+                
                 
                 XBucle = True
             elif Ans == "3":
@@ -286,6 +289,47 @@ while (XBucle != True):
                 print ""
                 print " " + Name + ":"
                 print " ..."
+                raw_input("")
+                
+                XBucle = True
+            else:
+                print " SYSTEM:"
+                print " I don't like what you are saying..."
+                raw_input("")
+                XBucle = False
+        raw_input("")
+        print ""
+        raw_input("")
+        print ""
+        print " In the next day, " + Name + " and Kevin wake up."
+        raw_input("")
+        print ""
+        print " As Kevin prepare the breakfast, " + Name + " wanted to ask somthing to him."
+        raw_input("")
+        print ""
+        print " 1. What's out there, in the forest?"
+        print " 2. Do you know how to touch a wall with an apple?"
+        print " 3. Did you listen a strangle sound at night?"
+        while (XBucle != True):
+            Ans = raw_input("==> ")
+            if Ans == "1":
+                print ""
+                print " " + Name + ":"
+                print " What's out there, in the forest?"
+                raw_input("")
+                
+                XBucle = True
+            elif Ans == "2":
+                print ""
+                print " " + Name + ":"
+                print " Do you know how to touch a wall with an apple?"
+                raw_input("")
+                
+                XBucle = True
+            elif Ans == "3":
+                print ""
+                print " " + Name + ":"
+                print " Did you listen a strangle sound at night?"
                 raw_input("")
                 
                 XBucle = True
