@@ -9,4 +9,8 @@ KEVIN: Who is Broya
       1Ignore and sleep
       2See what's up
       3Sing a song
+    Player Ask
+      1What's in the forest?
+      2How to touch a wall with an apple?
+      3Did you listen the sound of this night?
   2Broya... (w)
