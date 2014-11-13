@@ -41,8 +41,8 @@ print ""
 print " 1. Yes..."
 print " 2. Who are you?"
 print " 3. I'm dead..."
-Ans = raw_input("==> ")
 while (XBucle != True):
+    Ans = raw_input("==> ")
     if Ans == "1":
         print " YOU:"
         print " Yes..."
@@ -145,8 +145,8 @@ print " Who is Broya???"
 print ""
 print " 1. Broya..."
 print " 2. Broya..."
-Ans = raw_input("==> ")
 while (XBucle != True):
+    Ans = raw_input("==> ")
     if Ans == "1":
         Genre = "Male"
         print " " + Name + ":"
@@ -203,8 +203,8 @@ while (XBucle != True):
         print " 1. Ignore it and sleep."
         print " 2. Go and see what's up there."
         print " 3. Sing a song loudly."
-        Ans = raw_input("==> ")
         while (XBucle != True):
+            Ans = raw_input("==> ")
             if Ans == "1":
                 print ""
                 print " " + Name + ":"
