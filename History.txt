@@ -1,0 +1,12 @@
+START
+KEVIN: Are you OK
+  1Yes...
+  2Who are you
+  3I'm dead...
+KEVIN: Who is Broya
+  1Broya... (m)
+    Computer Sound
+      1Ignore and sleep
+      2See what's up
+      3Sing a song
+  2Broya... (w)
