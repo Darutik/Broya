@@ -408,12 +408,66 @@ while (XBucle != True):
                             XBucle = False
                         XBucle = False
                     elif Ans == "2":
-                        
-                        
+                        print ""
+                        print " " + Name + " open the drawer of the table."
+                        raw_input("")
+                        print " There is only an ID Card."
+                        print ""
+                        print " 1. Read it."
+                        print " 2. Close the drawer."
+                        while (XBucle != True):
+                            Ans = raw_input("==> ")
+                            if Ans == "1":
+                                print ""
+                                print " NEXTMIND Laboratories"
+                                print ""
+                                print " Employee card!"
+                                print ""
+                                print " NAME:"
+                                print " Kevin Reverguntter Lymphelt"
+                                print ""
+                                print " There's a BIDI code."
+                                raw_input("")
+                                print " It will take you to more info about Kevin..."
+                                raw_input("")
+                                XBucle = True
+                            elif Ans == "2":
+                                print ""
+                                print " " + Name + " close slowly the drawer."
+                                raw_input("")
+                                print ""
+                                print " ...and nothing happened."
+                                raw_input("")
+                                XBucle = True
+                            else:
+                                print " SYSTEM:"
+                                print " I don't like what you are saying..."
+                                raw_input("")
+                                XBucle = False
                         XBucle = False
                     elif Ans == "3":
-                        
-                        
+                        print ""
+                        print " " + Name + " press the button on the wall."
+                        raw_input("")
+                        print " And the light become..."
+                        raw_input("")
+                        print ""
+                        print " ..."
+                        print ""
+                        raw_input("")
+                        print ""
+                        print " ..."
+                        print ""
+                        raw_input("")
+                        print ""
+                        print " " + Name + " press the button on the wall again."
+                        print " And the darkness came again to the room, broke by the screen..."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " Consuming too much energy."
+                        print " Think in the trees..."
+                        raw_input("")
                         XBucle = False
                     elif Ans == "4":
                         print ""
