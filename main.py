@@ -240,9 +240,31 @@ while (XBucle != True):
                 print ""
                 print " " + Name + " walk to the source of the sound."
                 raw_input("")
-                
+                print ""
                 print " The sound come from a computer."
-                
+                print " The computer is powered"
+                raw_input("")
+                print ""
+                print " " + Name + " is in a dark room illuminated by the computter screen."
+                print " There are normal things everywhere."
+                raw_input("")
+                print ""
+                print " In the wall there is a big paper with the logo of a company."
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " 'Nextmind Laboratories'..."
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " I don't remember this name."
+                print " Hmm..."
+                raw_input("")
+                print ""
+                print " " + Name + " don't know what to do..."
+                raw_input("")
+                print ""
+                print " 1."
                 
                 XBucle = True
             elif Ans == "3":
