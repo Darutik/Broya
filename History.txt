@@ -1,22 +1,22 @@
 START
-KEVIN: Are you OK
-  1Yes...
-  2Who are you
-  3I'm dead...
+KEVIN: Are you OK 
+  1Yes... $
+  2Who are you $
+  3I'm dead... $
 KEVIN: Who is Broya
   1Broya... (m)
     Computer Sound
-      1Ignore and sleep
+      1Ignore and sleep $
       2See what's up
         LOOP
           1See the computer's screen.
-            1Read chat
-            2Do nothing
+            1Read chat $
+            2Do nothing $
           2Open the drawer of the table.
-            1Read the ID Card
-            2Close the drawer
-          3Turn on the lights
-          4Go back to bed. LOOP
+            1Read the ID Card $
+            2Close the drawer $
+          3Turn on the lights $
+          4Go back to bed. LOOP $
       3Sing a song
     Player Ask
       1What's in the forest?
