@@ -292,7 +292,7 @@ while (XBucle != True):
                             print " @KevinAFM"
                             print " Yeah, but I love more this one:"
                             print " http://www.kalexshi.deviantart.com/"
-                            print " He drawed very well too..."                          # R.I.P.  （；_・）
+                            print " He drawed very well too... :("                          # R.I.P.  （；_・）
                             print ""
                             raw_input("")
                             print ""
