@@ -6,6 +6,14 @@ Genre = ""
 XBucle = False
 
 print ""
+print " BROYA by Darutik"
+print " prerelease A (prA)"
+print ""
+print " It's not complete, so I deleted the unfinished answers."
+print " If you don't like SPOILERS, you should close now..."
+raw_input()
+
+print ""
 print " Darutik presents..."
 print ""
 print " 01000010 01110010 01101111 01111001 01100001"
@@ -229,22 +237,8 @@ while (XBucle != True):
                 print " This was close..."
                 XBucle = True
             elif Ans == "2":
-                print ""
-                print " " + Name + ":"
-                print " Hmm..."
-                raw_input("")
-                print ""
-                print " " + Name + " go to take a look out there."
-                print " What can be that sound?"
-                raw_input("")
-                print ""
-                print " " + Name + " walk to the source of the sound."
-                raw_input("")
-                
-                print " The sound come from a computer."
-                
-                
-                XBucle = True
+                print "NO WAY"
+                XBucle = False
             elif Ans == "3":
                 print ""
                 print " " + Name + ":"
@@ -290,7 +284,8 @@ while (XBucle != True):
                 print " " + Name + ":"
                 print " ..."
                 raw_input("")
-                
+                print "UNFINISHED"
+                print " Here is a small jump in the story, because  think you wanted to hear " + Name + " singing..."
                 XBucle = True
             else:
                 print " SYSTEM:"
@@ -317,21 +312,21 @@ while (XBucle != True):
                 print " " + Name + ":"
                 print " What's out there, in the forest?"
                 raw_input("")
-                
+                print "NO WAY"
                 XBucle = True
             elif Ans == "2":
                 print ""
                 print " " + Name + ":"
                 print " Do you know how to touch a wall with an apple?"
                 raw_input("")
-                
+                print "NO WAY"
                 XBucle = True
             elif Ans == "3":
                 print ""
                 print " " + Name + ":"
                 print " Did you listen a strangle sound at night?"
                 raw_input("")
-                
+                print "NO WAY"
                 XBucle = True
             else:
                 print " SYSTEM:"
@@ -340,21 +335,8 @@ while (XBucle != True):
                 XBucle = False
         XBucle = True
     elif Ans == "2":
-        Genre = "Female"
-        print " " + Name + ":"
-        print " Broya.."
-        print " Broya is my partner..."
-        raw_input("")
-        print " KEVIN:"
-        print " Your partner???"
-        print " You mean your journey partner, no?"
-        raw_input("")
-        print " " + Name + ":"
-        print " I supose..."
-        print " I only know that I have this word recorded on my mind..."
-        raw_input("")
-        
-        XBucle = True
+        print "NO WAY"
+        XBucle = False
     else:
         print " SYSTEM:"
         print " I don't like what you are saying..."
