@@ -8,9 +8,17 @@ KEVIN: Who is Broya
     Computer Sound
       1Ignore and sleep
       2See what's up
+        LOOP
+          1See the computer's screen.
+            1Read chat
+            2Do nothing
+          2Open the drawer of the table.
+          3Turn on the lights
+          4Go back to bed. LOOP
       3Sing a song
     Player Ask
       1What's in the forest?
       2How to touch a wall with an apple?
       3Did you listen the sound of this night?
   2Broya... (w)
+END
