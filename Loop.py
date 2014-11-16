@@ -3,15 +3,10 @@
 while (XBucle != True):
     Ans = raw_input("==> ")
     if Ans == "1":
-        
         XBucle = True
     elif Ans == "2":
-        
-        
         XBucle = True
     elif Ans == "3":
-        
-        
         XBucle = True
     else:
         print " SYSTEM:"
