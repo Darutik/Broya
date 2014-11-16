@@ -477,7 +477,6 @@ while (XBucle != True):
                         print ""
                         print " " + Name + ":"
                         print " What will happen if Kevin sees me here?"
-                        raw_input("")
                         XBucle = True
                     else:
                         print " SYSTEM:"
@@ -530,7 +529,109 @@ while (XBucle != True):
                 print " " + Name + ":"
                 print " ..."
                 raw_input("")
-                
+                print ""
+                print " KEVIN:"
+                print " What you're thinking about?!!!"
+                raw_input("")
+                print ""
+                print " 1. I can't sleep..."
+                print " 2. You don't like 'La bamba'???"
+                print " 3. I listened a sound..."
+                while (XBucle != True):
+                    Ans = raw_input("==> ")
+                    if Ans == "1":
+                        print ""
+                        print " " + Name + ":"
+                        print " I can't sleep..."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " What?"
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " Now you are a kid?"
+                        raw_input("")
+                        print " ..."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " Go back to the bed..."
+                        print " Don't be a child..."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " ..."
+                        raw_input("")
+                        print  ""
+                        print " KEVIN:"
+                        print " And " + Name + "..."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " If you are tired tomorrow, you will not be able to"
+                        print " find Broya."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " !!!"
+                        XBucle = True
+                    elif Ans == "2":
+                        print ""
+                        print " " + Name + ":"
+                        print " You don't like 'La bamba'???"
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " No, I love 'La Bamba'."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " I only hate 'La Bamba' when someone sing it"
+                        print " loudly at TWO O'CLOCK, AT NIGHT!"
+                        raw_input("")
+                        print ""
+                        print " KEVIN looks angry."
+                        raw_input("")
+                        print ""
+                        print " Suddenly, KEVIN target the Guest's Room of his house."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " Please, don't wake up at night again..."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " Sorry..."
+                        XBucle = True
+                    elif Ans == "3":
+                        print ""
+                        print " " + Name + ":"
+                        print " I listened a sound..."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " We are in the forest."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " There are hundreds of wild animals around us!"
+                        print " Right now!!!"
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " ..."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " You should go back to bed."
+                        print " And ignore the sounds from the outside."
+                        XBucle = True
+                    else:
+                        print " SYSTEM:"
+                        print " I don't like what you are saying..."
+                        raw_input("")
+                        XBucle = False
                 XBucle = True
             else:
                 print " SYSTEM:"
