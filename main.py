@@ -283,7 +283,7 @@ while (XBucle != True):
                                 print ""
                                 print " Marlo Rekreff (@Paco77)              [_] [ ] [x]"
                                 print " ----------------------------------------------"
-                                print " A FEW DAYS AGO
+                                print " A FEW DAYS AGO"
                                 print " @Paco77"
                                 print " Look at this men!"
                                 print " http://www.darutik.deviantart.com/"
@@ -480,9 +480,9 @@ while (XBucle != True):
                         XBucle = True
                     else:
                         print " SYSTEM:"
-                       print " I don't like what you are saying..."
+                        print " I don't like what you are saying..."
                         raw_input("")
-                       XBucle = False
+                        XBucle = False
                 XBucle = True
             elif Ans == "3":
                 print ""
