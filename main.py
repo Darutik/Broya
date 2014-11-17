@@ -366,7 +366,7 @@ while (XBucle != True):
                                 print " ONE HOUR AGO"
                                 print " @KevinAFM"
                                 print " Hey, I found something!"
-                                print " A man called " + Name + "in the forest."
+                                print " A man called " + Name + " in the forest."
                                 print ""
                                 print " @Paco77"
                                 print " Sure? Let me search his name..."
