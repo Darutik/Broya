@@ -444,7 +444,11 @@ while (XBucle != True):
                                 print " I don't like what you are saying..."
                                 raw_input("")
                                 XBucle = False
-                        XBucle = False
+                        else:
+                            print " SYSTEM:"
+                            print " I don't like what you are saying..."
+                            raw_input("")
+                            XBucle = False
                     elif Ans == "3":
                         print ""
                         print " " + Name + " press the button on the wall."
