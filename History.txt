@@ -18,11 +18,14 @@ KEVIN: Who is Broya
           3Turn on the lights $
           4Go back to bed. LOOP $
       3Sing a song
-        1Can't sleep...$
-        2Dislike Bamba???$
-        3Heared a sound...$
+        1Can't sleep... $
+        2Dislike Bamba??? $
+        3Heared a sound... $
     Player Ask
       1What's in the forest?
+        1Do know animals from Forests
+        2Don't know animals from Forests
+        3Don't press 3 $
       2How to touch a wall with an apple?
       3Did you listen the sound of this night?
   2Broya... (w)
