@@ -662,12 +662,59 @@ while (XBucle != True):
                 print " " + Name + ":"
                 print " What's out there, in the forest?"
                 raw_input("")
-                
+                print ""
+                print " KEVIN:"
+                print " Well..."
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " Do you know what kind of animals usually are on the forest?"
+                print ""
+                print " 1. Yes"
+                print " 2. No"
+                print " 3. Don't press the '3' button..."
+                while (XBucle != True):
+                    Ans = raw_input("==> ")
+                    if Ans == "1":
+                        print ""
+                        print " " + Name + ":"
+                        print " Yes, I know a bit about animals and these things."
+                        raw_input("")
+                        
+                        XBucle = True
+                    elif Ans == "2":
+                        print ""
+                        print " " + Name + ":"
+                        print " No, I'm an absolutely noob in these topics..."
+                        raw_input("")
+                        
+                        XBucle = True
+                    elif Ans == "3":
+                        print ""
+                        print " SYSTEM:"
+                        print " I told you that you cannot do that."
+                        raw_input("")
+                        print " You are an stupid thing..."
+                        raw_input("")
+                        XBucle = False
+                    else:
+                        print " SYSTEM:"
+                        print " I don't like what you are saying..."
+                        raw_input("")
+                        XBucle = False
                 XBucle = True
             elif Ans == "2":
                 print ""
                 print " " + Name + ":"
                 print " Do you know how to touch a wall with an apple?"
+                raw_input("")
+                print ""
+                print " KEVIN:"
+                print " I watched the video too..."
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " But you know how to do it with any color???"
                 raw_input("")
                 
                 XBucle = True
