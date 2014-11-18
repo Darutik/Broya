@@ -406,7 +406,7 @@ while (XBucle != True):
                                 print " I don't like what you are saying..."
                                 raw_input("")
                                 XBucle = False
-                            XBucle = False
+                        XBucle = False
                     elif Ans == "2":
                         print ""
                         print " " + Name + " open the drawer of the table."
