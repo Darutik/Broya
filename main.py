@@ -680,7 +680,23 @@ while (XBucle != True):
                         print " " + Name + ":"
                         print " Yes, I know a bit about animals and these things."
                         raw_input("")
-                        
+                        print ""
+                        print " KEVIN:"
+                        print " Well."
+                        print " Then..."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " Then forgot what you should see at a forest."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " What?"
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " Why..."
+                        print " ?"
                         XBucle = True
                     elif Ans == "2":
                         print ""
