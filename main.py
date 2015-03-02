@@ -703,7 +703,9 @@ while (XBucle != True):
                         print " " + Name + ":"
                         print " No, I'm an absolutely noob in these topics..."
                         raw_input("")
-                        
+                        print ""
+                        print " KEVIN:"
+                        print " "
                         XBucle = True
                     elif Ans == "3":
                         print ""
