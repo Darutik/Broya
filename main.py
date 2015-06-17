@@ -245,7 +245,7 @@ while (XBucle != True):
                 print " The computer is powered"
                 raw_input("")
                 print ""
-                print " " + Name + " is in a dark room illuminated by the computter screen."
+                print " " + Name + " is in a dark room illuminated by the computer screen."
                 print " There are normal things everywhere."
                 raw_input("")
                 print ""
@@ -697,6 +697,19 @@ while (XBucle != True):
                         print " " + Name + ":"
                         print " Why..."
                         print " ?"
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " Well, this is not a regullar forest."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " So, this is a irregular forest, ah?"
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " You can call it... 'amazing'"
+                        raw_input("")
                         XBucle = True
                     elif Ans == "2":
                         print ""
@@ -720,6 +733,9 @@ while (XBucle != True):
                         print " I don't like what you are saying..."
                         raw_input("")
                         XBucle = False
+                print ""
+                print " KEVIN:"
+                print " Anyway, you should be prepared for your search"
                 XBucle = True
             elif Ans == "2":
                 print ""
@@ -734,7 +750,14 @@ while (XBucle != True):
                 print " " + Name + ":"
                 print " But you know how to do it with any color???"
                 raw_input("")
-                
+                print ""
+                print " KEVIN:"
+                print " Yes..."
+                raw_input("")
+                print ""
+                print " " + Name + ":"
+                print " ..."
+                raw_input("")
                 XBucle = True
             elif Ans == "3":
                 print ""
