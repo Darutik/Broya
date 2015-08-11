@@ -206,6 +206,7 @@ while (XBucle != True):
         while (XBucle != True):
             Ans = raw_input("==> ")
             if Ans == "1":
+                PlayerDream = True
                 print ""
                 print " " + Name + ":"
                 print " I should be sleeping."
@@ -229,6 +230,7 @@ while (XBucle != True):
                 print " This was close..."
                 XBucle = True
             elif Ans == "2":
+                PlayerDream = True
                 print ""
                 print " " + Name + ":"
                 print " Hmm..."
@@ -280,6 +282,7 @@ while (XBucle != True):
                         while (XBucle != True):
                             Ans = raw_input("==> ")
                             if Ans == "1":
+                                PlayerDream = False
                                 print ""
                                 print " Marlo Rekreff (@Paco77)              [_] [ ] [x]"
                                 print " ----------------------------------------------"
@@ -418,6 +421,7 @@ while (XBucle != True):
                         while (XBucle != True):
                             Ans = raw_input("==> ")
                             if Ans == "1":
+                                PlayerDream = False
                                 print ""
                                 print " NEXTMIND Laboratories"
                                 print ""
@@ -489,6 +493,7 @@ while (XBucle != True):
                         XBucle = False
                 XBucle = True
             elif Ans == "3":
+                PlayerDream = True
                 print ""
                 print " " + Name + ":"
                 print " Para bailar la bamba!!!"
@@ -718,7 +723,33 @@ while (XBucle != True):
                         raw_input("")
                         print ""
                         print " KEVIN:"
-                        print " "
+                        print " Well, so..."
+                        print " Are you hard?"
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " I'm a city man..."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " ..."
+                        raw_input("")
+                        print ""
+                        print " " + Name + ":"
+                        print " Not too hard at all"
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " Hmm..."
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " How can I explain you...?"
+                        raw_input("")
+                        print ""
+                        print " KEVIN:"
+                        print " ..."
+                        raw_input("")
                         XBucle = True
                     elif Ans == "3":
                         print ""
@@ -764,13 +795,95 @@ while (XBucle != True):
                 print " " + Name + ":"
                 print " Did you listen a strangle sound at night?"
                 raw_input("")
-                
+                print ""
+                print " KEVIN:"
+                print " No..."
+                raw_input("")
+                if PlayerDream == True:
+                    print ""
+                    print " KEVIN:"
+                    print " I was with the computer until midnight, and I didn't hear anything..."
+                    print ""
+                    print " 1. Computer?"
+                    print " 2. Headphones..."
+                    while (XBucle != True):
+                        Ans = raw_input("==> ")
+                        if Ans == "1":
+                            print ""
+                            print " " + Name + ":"
+                            print " Do you have a computer?"
+                            raw_input("")
+                            print ""
+                            print " " + Name + ":"
+                            print " Here???"
+                            raw_input("")
+                            print ""
+                            print " KEVIN:"
+                            print " Err... yes..."
+                            raw_input("")
+                            print ""
+                            print " KEVIN:"
+                            print " No?"
+                            raw_input("")
+                            print ""
+                            print " " + Name + ":"
+                            print " Can you let me check my Twitter? Facebook? VK? Last.fm? My Space?"
+                            print " YouTube? deviantART? GitHub? TaikoTime? Furaffinity? Google+?"
+                            print " Yo? Steam? Skype? Whatsapp? Line? Telegram? Twitch?"
+                            raw_input("")
+                            print ""
+                            print " KEVIN:"
+                            print " ¬ ¬"
+                            raw_input("")
+                            print ""
+                            print " " + Name + ":"
+                            print " No?"
+                            raw_input("")
+                            print ""
+                            print " KEVIN:"
+                            print " ..."
+                            raw_input("")
+                            print ""
+                            print " KEVIN:"
+                            print " No"
+                            raw_input("")
+                            print ""
+                            print " " + Name + ":"
+                            print " ..."
+                            raw_input("")
+                            print ""
+                            print " " + Name + ":"
+                            print " Forget it..."
+                            raw_input("")
+                            XBucle = True
+                        elif Ans == "2":
+                            print ""
+                            #pink floyd's the Wall reference (or another kind of music reference xD)
+                            XBucle = True
+                        else:
+                            print " SYSTEM:"
+                            print " I don't like what you are saying..."
+                            raw_input("")
+                            XBucle = False
+                elif PlayerDream == False:
+                    print ""
+                else:
+                    print "/*/ERROR/*/"
+                    raw_input("")
                 XBucle = True
             else:
                 print " SYSTEM:"
                 print " I don't like what you are saying..."
                 raw_input("")
                 XBucle = False
+        print ""
+        print " KEVIN:"
+        print " So, in two hours your're gonna be at the forest"
+        raw_input("")
+        print ""
+        print " KEVIN:"
+        print " Alone"
+        raw_input("")
         XBucle = True
     elif Ans == "2":
         Genre = "Female"
