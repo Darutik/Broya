@@ -1,0 +1,6 @@
+BROYA, PLAYER y TAKASH se escapan de las celdas
+Disparan a TAKASH. BROYA y PLAYER huyen.
+BROYA y PLAYER estan inconscientes.
+KEVIN encuentra a PLAYER
+KEVIN refugia a PLAYER por la noche
+PLAYER puede ver la conversacion del PC entre KEVIN y MARLO
