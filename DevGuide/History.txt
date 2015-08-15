@@ -1,39 +1,43 @@
 1,2,3... Answers
 $ finished line
+€ end game
 
 START
-KEVIN: Are you OK 
+KEVIN: Are you OK $
   1Yes... $
   2Who are you $
   3I'm dead... $
 KEVIN: Who is Broya
   1Broya... (m)
-    Computer Sound
+    Computer Sound$
       1Ignore and sleep $
-      2See what's up
-        LOOP
-          1See the computer's screen.
+      2See what's up$
+        LOOP$
+          1See the computer's screen.$
             1Read chat $
             2Do nothing $
-          2Open the drawer of the table.
+          2Open the drawer of the table.$
             1Read the ID Card $
             2Close the drawer $
           3Turn on the lights $
           4Go back to bed. LOOP $
-      3Sing a song
+      3Sing a song$
         1Can't sleep... $
         2Dislike Bamba??? $
         3Heared a sound... $
     Player Ask
-      1What's in the forest?
+      1What's in the forest?$
         1Do know animals from Forests$
         2Don't know animals from Forests$
         3Don't press 3 $
-      2How to touch a wall with an apple?
+      2How to touch a wall with an apple?$
       3Did you listen the sound of this night?
         1(PLAYER doesn't know)
           1Computer$
           2Headphones
+            1The Wall on your room€
+            2hates The Wall
+            3loves The Wall
         2(PLAYER knows)
   2Broya... (w)
 END
