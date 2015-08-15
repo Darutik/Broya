@@ -414,7 +414,12 @@ while (XBucle != True):
                         print ""
                         print " " + Name + " open the drawer of the table."
                         raw_input("")
-                        print " There is only an ID Card."
+                        print " There is only a 'The Wall' album..."
+                        raw_input("")
+                        print " ..."
+                        raw_input("")
+                        print ""
+                        print " Hey! Theres an ID Card too."
                         print ""
                         print " 1. Read it."
                         print " 2. Close the drawer."
@@ -430,7 +435,7 @@ while (XBucle != True):
                                 print " NAME:"
                                 print " Kevin Reverguntter Lymphelt"
                                 print ""
-                                print " There's a BIDI code."
+                                print " <There's a BIDI code at the bottom>"
                                 raw_input("")
                                 print " It will take you to more info about Kevin..."
                                 raw_input("")
@@ -858,7 +863,88 @@ while (XBucle != True):
                             XBucle = True
                         elif Ans == "2":
                             print ""
-                            #pink floyd's the Wall reference (or another kind of music reference xD)
+                            print " " + Name + ":"
+                            print " Headphones..."
+                            raw_input("")
+                            print ""
+                            print " KEVIN:"
+                            print " Nani?"
+                            raw_input("")
+                            print ""
+                            print " " + Name + ":"
+                            print " I mean, you were listening to music, do you?"
+                            raw_input("")
+                            print ""
+                            print " " + Name + ":"
+                            print " Technologyc?" #Daft Punk
+                            print " Seirogan2000?" #Taiko no Tatsujin!
+                            print " Hungarian Rhapsody No.2?" #Better with stepped motors xD
+                            print " The Wall?" #Pink Floyd
+                            raw_input("")
+                            print ""
+                            print " KEVIN:"
+                            print " I hate The Wall!"
+                            raw_input("")
+                            print ""
+                            print " 1. But you have it!" #Die, player..
+                            print " 2. I hate it too" #False xD It's awesome!
+                            print " 3. It's the best album EVER!" #and Alive2007
+                            while (XBucle != True):
+                                Ans = raw_input("==> ")
+                                if Ans == "1":
+                                    print ""
+                                    print " " + Name + ":"
+                                    print " But you have it!"
+                                    raw_input("")
+                                    print ""
+                                    print " KEVIN:"
+                                    print " What?"
+                                    raw_input("")
+                                    print ""
+                                    print " " + Name + ":"
+                                    print " You have 'The Wall' on your Drawer"
+                                    raw_input("")
+                                    print ""
+                                    print " Kevin looks upset, thinking about something fast..."
+                                    raw_input("")
+                                    print ""
+                                    print " " + Name + ":"
+                                    print " Are you listening to-"
+                                    raw_input("")
+                                    print ""
+                                    print " But " + Name + " never finished that sentence..."
+                                    raw_input("")
+                                    print ""
+                                    print " Kevin triggered his sleeping gun before " + Name + "'s brain noticed that"
+                                    print " Kevin was with a hand near his waist, were that gun was."
+                                    raw_input("")
+                                    print ""
+                                    print " And " + Name + " fell down to the floor, while Kevin was pressing"
+                                    print " some buttons on his phone."
+                                    raw_input("")
+                                    print ""
+                                    print " KEVIN:"
+                                    print " Marlo! I..."
+                                    raw_input("")
+                                    raw_input("")
+                                    raw_input("")
+                                    print " end"
+                                    raw_input("")
+                                    print " ?"
+                                    raw_input("")
+                                    XBucle = True
+                                    sys.exit()
+                                elif Ans == "2":
+                                    print ""
+                                    print " " + Name + ":"
+                                    XBucle = True
+                                elif Ans == "3":
+                                    XBucle = True
+                                else:
+                                    print " SYSTEM:"
+                                    print " I don't like what you are saying..."
+                                    raw_input("")
+                                    XBucle = False
                             XBucle = True
                         else:
                             print " SYSTEM:"
