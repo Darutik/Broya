@@ -1,5 +1,5 @@
 KEVIN
-En un principio intenta ayudar, y parece amistoso. Pero luego con el tiempo, se va descubriendo que esconde algo, por lo que al final es un enemigo de PLAYER y BROYA.
+En un principio intenta ayudar, y parece amistoso. Pero luego con el tiempo, se va descubriendo que esconde algo, por lo que al final es un enemigo de PLAYER y BROYA. Ama el album The Wall, aunque es un secreto suyo presonal.
 PLAYER
 Varia en funcion de las opciones del jugador, aunque se distingue por varias caracteristicas (un poco con multiples personalidades? algo random...): 1timido 2luchador 3bromista
 Al principio está aturdido, claramente por ser rescatado por KEVIN, sin saber que sucedió antes. Despues segun se recupera se anima mas, con cosas mas bromistas, aunque sigue pudiendo ser luchador. La timidez pierde fuerza en busca de BROYA cuando está recuperado, mostrandose como un hombre normal (bromas aparte xD)
