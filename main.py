@@ -937,8 +937,20 @@ while (XBucle != True):
                                 elif Ans == "2":
                                     print ""
                                     print " " + Name + ":"
+                                    print " Well, I hate it too..."
+                                    raw_input("")
+                                    print ""
+                                    
                                     XBucle = True
                                 elif Ans == "3":
+                                    print ""
+                                    print " " + Name + ":"
+                                    print " How you can say that???"
+                                    raw_input("")
+                                    print ""
+                                    print " " + Name + ":"
+                                    print " It's the best album EVER!!!"
+                                    print " <3" #xD
                                     XBucle = True
                                 else:
                                     print " SYSTEM:"
