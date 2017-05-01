@@ -1,0 +1,67 @@
+#Comentario
+
+#Definir Personaje
+define char = Character(_("Char Name"), color="#ffcccc")
+#Color del texto del nombre
+
+#Cargar imagen
+image bg casa = "casa.jpg"
+image Char saluda = "Char_hi.png"
+image Char stand = "Char_stand.png"
+
+#Definir un Dissolve personalizado
+define slowdissolve = Dissolve(1.0)
+
+#Cargar sonido
+#el sonido no se carga xD
+
+#Comienzo del juego
+label start:
+
+    "Este es un texto de dialogo sin personaje, tipo narrador"
+
+    "Nombre" "Este dialogo tiene nombre de personaje"
+    "Nombre" "Pero el personaje mo está guardado xD"
+
+    char "Este dialogo si que es del personaje que hemos puesto"
+    char "Saluda a Character Name!"
+
+    show Char saluda at right #Muestra Char_hi.png a la derecha de la pantalla
+    with Dissolve(.5) #Agrega al dibujado del personaje el efecto Dissolve durante medio segundo, para evitar una "aparicion espontanea"
+
+    #Pausa de un segundo
+    pause 1.0
+
+    scene bg casa #Carga el fondo
+    with slowdissolve #Con el Dissolve personalizado de arriba
+
+    show Char stand at right #Cambio de cara a char, ahora sin efectos
+    char "Te gusta mi casa?"
+
+    #Decisiones, decisiones...
+    menu:
+        "Si": #Esta es una opcion
+            $ likeCasa = True #Variable
+            "Puedo poner texto y codigo aqui, sin llamar a ningun script a parte"
+            char "Chi???"
+            jump resume #Saltar al label "resume"
+#YANDRAK45 LINE
+
+        "No": #Y esta otra opcion
+            jump No #Salta a label No
+
+label No:
+    $ likeCasa = False #Si, la var de antes...
+    "O puedo poner texto y codigo en una nueva Label!"
+    char "ju..."
+    jump resume #Salta, como antes
+
+label resume:
+    "La curva espaciotemporal ha vuelto a la normalidad"
+
+    pause 1.0
+
+    char "ehm..."
+    char "Voy a poner un poco de musica..."
+
+    
