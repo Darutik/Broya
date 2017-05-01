@@ -63,5 +63,7 @@ label resume:
 
     char "ehm..."
     char "Voy a poner un poco de musica..."
-
     
+
+    #Se termina con esto
+    return
