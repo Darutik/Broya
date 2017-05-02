@@ -69,16 +69,38 @@ label start:
             pause .5
             "Someone" "My name is Kevin. I've found you near the river, in the East.\nYou were unconcious, so I let you to rest on my house, inside the forest."
             k "So, you got it.\nNow let me ask you..."
-            k "how should I call you?"
+            k "How should I call you?"
             python:
                 povidiot = False
                 povname = renpy.input("What's your name?")
                 povname = povname.strip()
                 if not povname:
                     povidiot = True
-                    povname = "The player who didn't remember to write"
+                    povname = "Who I am?"
             pause 1.0
             pov "I'm... [povname].\nPeople call me [povname]..."
         "3. I'm dead...":
+            pause .5
+            "You" "I'm dead..."
+            "Someone" "Yes, and I am Bill Gates, the founder of Microsoft"
+            pause .5
+            "Someone (Bill Gates?)" "Then, if you're dead..."
+            pause .1
+            "Someone (no, he is not mister Gates)" "You are a ghost!"
+            "Someone" "And I presume your name is Casper, right?"
+            python:
+                povidiot = False
+                povname = renpy.input("What's your name?")
+                povname = povname.strip()
+                if not povname:
+                    povidiot = True
+                    povname = "Bill Gates"
+            pause 1.0
+            pov "I'm not Casper the ghost...\nI'm [povname]."
+            "Someone" "Casper the FRIENDLY ghost*"
+            pause 1.0
+            "Someone" "Sorry, [povname], i'm not Bill Gates too."
+            "Someone" "My name is Kevin. I've found you near the river, in the East.\nYou were unconcious, so I let you to rest on my house, inside the forest."
+            
 
     return
